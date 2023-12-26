@@ -2,6 +2,11 @@
 
 #include <stdbool.h> // Include necessary headers
 
+// Declare function prototypes
+void clear_screen();
+void print_newline();
+void read_input(char* buffer);
+
 // Function to print a null-terminated string
 void print_string(const char* str) {
     // Video memory address (0xB8000 for VGA text mode)
